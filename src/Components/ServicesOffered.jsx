@@ -3,11 +3,12 @@ import ServicesCard from './ServicesCard'
 import { Icon } from '@iconify/react'
 import Services from './Services'
 import Specials from './Specials'
+import TestimonialShow from './TestimonialShow'
 
 const ServicesOffered = () => {
   return (
     <div className=' overflow-x-hidden min-h-screen bg-[#F5F5F5]'>
-          <div className=' w-screen  h-96   bg-black object-cover bg-backgroundImage bg-cover bg-center  '   >      
+      <div className=' w-screen  h-96   bg-black object-cover bg-backgroundImage bg-cover bg-center  '   >      
       <div className="inner w-full h-full flex justify-center items-center text-center relative ">
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
@@ -18,12 +19,12 @@ const ServicesOffered = () => {
      </div>
      <div className='w-full flex flex-col px-52 justify-between absolute   mt-[480px]'>
       <Services/>
-
-      
       </div>
-      <Specials/>
-
-      
+     
+      {/* <div className='flex flex-col -mt-[2700px] '>
+          
+          <TestimonialShow/>
+      </div> */}
       
       </div>
      
@@ -35,6 +36,15 @@ const ServicesOffered = () => {
        
 
     </div>
+
+    <div >
+      <Specials/> 
+      </div>
+
+      <div>
+        <TestimonialShow/>
+      </div>
+      
     </div>
 
     
