@@ -2,7 +2,7 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  text-align:left;
 }
 .icon {
   display: grid;
@@ -25,14 +25,15 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-/* .socialmedia{
+.socialmedia{
   display: flex;
-  justify-content: center;
-  gap: 10px;
+  justify-content: flex-start;
+  gap: 15px;
   
-} */
+}
 .social{
   
+
 }
 
 .card {
@@ -45,9 +46,21 @@
 .contactPage{
   color:black ;
   display: grid;
-  grid-template-columns: 2fr repeat(2,1fr);
+  grid-template-columns: 2fr repeat(2,1fr); 
+  gap:100px;
   
 }
 .read-the-docs {
   color: #888;
+}
+.icon svg{
+  color: orange;
+}
+.Instagram{
+  
+}
+.Instagram:hover , .Tiktok:hover, .Facebook :hover{
+  cursor: pointer;
+  color: blue;
+
 }

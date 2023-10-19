@@ -8,9 +8,11 @@ function App() {
   return (
     <>
      
-      <h1>Our Services</h1>
-      <div className="card">
       
+      <div className="card">
+        <div>
+      <h4>Our Services</h4>
+       <h1>Join The Adventures With Stories</h1>
       <div className='icon'>
 
        <div >
@@ -38,6 +40,7 @@ function App() {
         <p>Valencia Neema</p>
 
         </div>
+      </div>
       </div>
       <div className='pic1'>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repudiandae reiciendis iure similique, quaerat molestiae in enim ducimus, a temporibus eligendi cum quia fuga, laborum dolores odio neque sed nesciunt!</p>
