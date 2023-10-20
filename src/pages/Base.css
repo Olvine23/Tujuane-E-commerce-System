@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+    background-attachment: scroll;
+    background-image: linear-gradient(rgba(4, 9,30,0.7), rgba(4,9,30,0.7)), url(src/images/mountains.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.text-box h1{
+  font-size: 80px;
+  margin: 0px;
+  /* position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; */
+}
+.text-box{
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+/* .text-box p{
+  
+} */
