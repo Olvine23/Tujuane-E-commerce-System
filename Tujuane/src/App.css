@@ -47,7 +47,8 @@
   color:black ;
   display: grid;
   grid-template-columns: 2fr repeat(2,1fr); 
-  gap:100px;
+  gap:50px;
+  align-items: baseline;
   
 }
 .read-the-docs {
@@ -55,9 +56,6 @@
 }
 .icon svg{
   color: orange;
-}
-.Instagram{
-  
 }
 .Instagram:hover , .Tiktok:hover, .Facebook :hover{
   cursor: pointer;
@@ -67,4 +65,12 @@
 .pic1 img{
   height: 400px;
   width: 500px;
+}
+.aBriefDescription img{
+  height: 50px;
+  padding-top: 10px;
+}
+.aBriefDescription{
+  display: block;
+
 }
