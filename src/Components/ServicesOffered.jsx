@@ -7,7 +7,7 @@ import TestimonialShow from './TestimonialShow'
 
 const ServicesOffered = () => {
   return (
-    <div className=' overflow-x-hidden min-h-screen bg-[#F5F5F5]'>
+    <div className=' overflow-x-hidden min-h-screen bg-[#F5F5F5] mt-[128px] relative'>
       <div className=' w-screen  h-96   bg-black object-cover bg-backgroundImage bg-cover bg-center  '   >      
       <div className="inner w-full h-full flex justify-center items-center text-center relative ">
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>

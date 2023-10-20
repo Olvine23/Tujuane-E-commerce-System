@@ -1,8 +1,8 @@
-import { useState } from 'react'
-import './App.css'
-import './ServicesVal.css'
+import React from 'react'
+import './Servicesval.css'
 import Contact from './Contact'
-// import './Hotairballon.png';
+
+
 const ServicesVal = () => {
   return (
     <>
@@ -42,8 +42,8 @@ const ServicesVal = () => {
     </div>
     </div>
     <div className='pic1'>
-      {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repudiandae reiciendis iure similique, quaerat molestiae in enim ducimus, a temporibus eligendi cum quia fuga, laborum dolores odio neque sed nesciunt!</p> */}
-    <img src="https://images.unsplash.com/photo-1519659528534-7fd733a832a0?auto=format&fit=crop&q=80&w=1926&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repudiandae reiciendis iure similique, quaerat molestiae in enim ducimus, a temporibus eligendi cum quia fuga, laborum dolores odio neque sed nesciunt!</p> */}
+     <img src="https://images.unsplash.com/photo-1519659528534-7fd733a832a0?auto=format&fit=crop&q=80&w=1926&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
     </div>
 
     </div>

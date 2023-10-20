@@ -7,8 +7,12 @@ function ServicesCard (props) {
   
   return (
     <div className=' w-44 h-48 bg-pink-200 flex flex-col rounded-sm align-middle justify-center gap-1 z-50  shadow-xl ' >
-      <div className='w-full justify-center flex' >
-      <div className="icon w-16 h-16 bg-orange-500/70 justify-center  items-center text-center flex   rounded-full ">{icon}</div>
+      <div className='w-full justify-center flex  relative' >
+      <div className="icon w-16 h-16 bg-orange-500/70 justify-center  items-center align-middle text-center flex  rounded-full relative ">
+        <div className='flex w-full h-16 justify-center items-center mx-2 '>
+        {icon}
+        </div>
+        </div>
 
       </div>
         <h1 className=' font-bold text-center  text-orange-500/60  '>{title}</h1>

@@ -14,11 +14,14 @@ import "./Base.css";
 const Base = () =>{
   return(
     <>
-    <Navbar/>
-    <div className='text-box'>
-      <h1>Services</h1>
-      <p>Home Services</p>
+    <div className="showcase">
+      <Navbar/>
+      <div className='text-box'>
+        <h1>Services</h1>
+        <p>Home Services</p>
+      </div>
     </div>
+  
     {/* <Contact/>
     <Services/>
     <ServicesCard/>
