@@ -8,6 +8,7 @@ export default {
     extend: {
       backgroundImage:{
         'backgroundImage':"url(/images/bg-image.jpg)",
+        'backImage':"url(/src/images/mountains.jpg)",
       },
     },
   },

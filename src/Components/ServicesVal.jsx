@@ -9,9 +9,11 @@ const ServicesVal = () => {
      
       
     <div className="card">
-      <div>
+
+      <div class="words">
     <h4>Our Services</h4>
-     <h1>Join The Adventures With Stories</h1>
+     <h1>Join The Adventures<br></br> With Stories</h1>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repudiandae reiciendis iure similique, quaerat molestiae in enim ducimus, a temporibus eligendi cum quia fuga, laborum dolores odio neque sed nesciunt!</p>
     <div className='icon'>
 
      <div >
@@ -42,14 +44,12 @@ const ServicesVal = () => {
     </div>
     </div>
     <div className='pic1'>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repudiandae reiciendis iure similique, quaerat molestiae in enim ducimus, a temporibus eligendi cum quia fuga, laborum dolores odio neque sed nesciunt!</p> */}
+   
      <img src="https://images.unsplash.com/photo-1519659528534-7fd733a832a0?auto=format&fit=crop&q=80&w=1926&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
     </div>
 
     </div>
-    <p className="read-the-docs">
-      <Contact />    
-        </p>
+    
   </>
   );
 }

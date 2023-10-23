@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css'; // Import your CSS file for styling if needed
 import { Link } from "react-router-dom";
+import ServicesVal from './ServicesVal';
 
 const Navbar = () => {
   return (
@@ -21,6 +22,8 @@ const Navbar = () => {
       </nav>
       </div>
     </div>
+    
+
   );
 };
 
