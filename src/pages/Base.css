@@ -21,13 +21,14 @@ body {
     background-size: cover; 
 
     background-position: center;
-     background-image: linear-gradient(rgba(4, 9,30,0.7), rgba(4,9,30,0.7)), url(src/images/mountains.jpg); 
+     background-image: linear-gradient(rgba(4, 9,30,0.5), rgba(4,9,30,0.5)), url(/images/bg4.jpg); 
   }
  
 .text-box h1{
   font-size: 80px;
   margin: 0px;
-  text-align: center
+  text-align: center;
+  pointer-events: none;
 }
 .text-box{
   align-items: center;
@@ -36,5 +37,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  text-align: center
+  text-align: center;
+  pointer-events: none;
+
 }

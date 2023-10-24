@@ -18,6 +18,7 @@
   .logo img {
     height: 100px; /* Adjust the height of the logo as needed */
     width: auto;
+    cursor: pointer;
   }
   
   .nav-links {
