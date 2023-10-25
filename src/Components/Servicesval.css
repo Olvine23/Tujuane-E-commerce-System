@@ -12,6 +12,7 @@
     width: 120px;
     padding: 0 10px;    
   }
+
   
   
   
@@ -20,6 +21,39 @@
     justify-content: flex-start;
     gap: 15px;
     
+    
+  }
+  .insta{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    }
+  .insta.tiktok{
+    width: 20px;
+  }
+  .socialmedia img{
+  
+   filter: grayscale(100%);
+   cursor: pointer;
+   object-fit: contain;
+
+  }
+  .socialmedia img:hover{
+   filter: grayscale(0);
+   cursor: pointer;
+
+  }
+
+  .socialmedia svg{
+    filter: grayscale(100%);
+
+  }
+  .socialmedia svg:hover{
+    filter: grayscale(0);
+
+  }
+  .card h4{
+    color: #0A8101;
   }
  
   
@@ -54,7 +88,7 @@
     color: #888;
   }
   .icon svg{
-    color: orange;
+    color: #0A8101;
   }
   .Instagram:hover , .Tiktok:hover, .Facebook :hover{
     cursor: pointer;
@@ -81,7 +115,7 @@
   .card h4{
     font-size: 16px;
     font-weight: 600;
-    color: rgb(248, 105, 53);
+   
   }
 .card h1{
   font-size: 36px;
