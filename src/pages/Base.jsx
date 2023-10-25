@@ -15,10 +15,14 @@ const Base = () =>{
   return(
     <>
     <div className="showcase">
+      <div className="navbar">
       <Navbar/>
+
+      </div>
       <div className='text-box'>
-        <h1>Services</h1>
-        <p>Home Services</p>
+        {/* <h1>Services</h1>
+        <p>Home Services</p> */}
+        <h1>Turning Your Tourism Fantasies Into Perfect Realities</h1>
       </div>
     </div>
   
