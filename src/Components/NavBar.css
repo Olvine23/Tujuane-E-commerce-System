@@ -10,13 +10,14 @@
     justify-content: space-between;
     align-items: center;
     background: transparent;
-    /* background-color: #333; */
     color: #fff;
-    padding: 10px 20px;
+    padding: 60px 20px;
+    
+    position: absolute;
   }
   
   .logo img {
-    height: 100px; /* Adjust the height of the logo as needed */
+    height: 170px;/* Adjust the height of the logo as needed */
     width: auto;
     cursor: pointer;
   }
@@ -24,6 +25,7 @@
   .nav-links {
     list-style-type: none;
     display: flex;
+    margin-right: 25px;
   }
   
   .nav-item {
