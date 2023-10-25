@@ -1,10 +1,4 @@
-/* #root {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align:left;
-  } */
-  
+
   .icon {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -53,7 +47,7 @@
     height: 100%;
     justify-content: center;
     align-items: center;
-    background-color: rgb(13, 13, 64);
+    background-color: rgb(1, 1, 36);
     padding: 20px 40px;
   }
   .read-the-docs {
@@ -66,6 +60,11 @@
     cursor: pointer;
     color: blue;
   
+  }
+  @media only screen and (max-width: 50vw){
+    .pic1 img{
+      display: none;
+    }
   }
   .pic1 img{
     height: 400px;
@@ -87,4 +86,7 @@
 .card h1{
   font-size: 36px;
   font-weight: 600;
+}
+.card p{
+  color: #888;
 }
