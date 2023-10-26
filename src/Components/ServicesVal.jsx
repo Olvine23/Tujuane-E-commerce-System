@@ -8,9 +8,9 @@ const ServicesVal = () => {
     <>
      
       
-    <div className="card">
+    <div className="card grid md:grid-cols-2 xl:grid-cols-2  lg:grid-cols-2 sm:grid-cols-1 xl:px-40  lg:px-24 sm:px-5 gap-2 sm:gap-1 py-10 w-full overflow-x-hidden">
 
-      <div class="words">
+      <div className="words px-12">
     <h4>Our Services</h4>
      <h1>Join The Adventures<br></br> With Stories</h1>
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repudiandae reiciendis iure similique, quaerat molestiae in enim ducimus, a temporibus eligendi cum quia fuga, laborum dolores odio neque sed nesciunt!</p>
@@ -43,7 +43,7 @@ const ServicesVal = () => {
       </div>
     </div>
     </div>
-    <div className='pic1'>
+    <div className='pic1 w-full flex items-center justify-center'>
    
      <img src="https://images.unsplash.com/photo-1519659528534-7fd733a832a0?auto=format&fit=crop&q=80&w=1926&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
     </div>

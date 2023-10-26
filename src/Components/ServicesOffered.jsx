@@ -17,7 +17,7 @@ const ServicesOffered = () => {
       <h1 className='text-4xl text-gray-200 font-bold mt-2 space-x-8 '>Let us Show You The Beauty Of The World</h1>
       <button className=' cursor-pointer p-2 bg-orange-400 rounded-3xl text-gray-100 px-4 mt-2'>Book Now</button>
      </div>
-     <div className='w-full flex flex-col lg:px-52 sm:px-5 justify-between absolute   mt-[480px]'>
+     <div className='w-full flex flex-col xl:px-52 lg:px-24 sm:px-5 justify-between absolute   mt-[480px]'>
       <Services/>
       </div>
      
