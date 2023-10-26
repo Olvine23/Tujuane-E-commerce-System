@@ -44,3 +44,8 @@ body {
   padding: 50px;
   justify-content: left;
 }
+@media(max-width: 700px) {
+  .text-box h1{
+    font-size: 30px;
+  }
+}
