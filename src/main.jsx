@@ -10,14 +10,20 @@ import ServicesOffered from './Components/ServicesOffered.jsx'
 import TestimonialShow from './Components/TestimonialShow.jsx'
 import Contact from './Components/Contact.jsx'
 import ServicesVal from './Components/ServicesVal.jsx'
+import {NextUIProvider} from '@nextui-org/react'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
-    <ServicesVal/>
+    
+    <NextUIProvider>
+      <App />
+      <ServicesVal/>
 
-    <ServicesOffered/>
-    <Contact/>
+      <ServicesOffered/>
+      <Contact/>
+    </NextUIProvider>
+  
 
   </React.StrictMode>,
 )
