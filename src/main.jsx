@@ -11,6 +11,7 @@ import TestimonialShow from './Components/TestimonialShow.jsx'
 import Contact from './Components/Contact.jsx'
 import ServicesVal from './Components/ServicesVal.jsx'
 import {NextUIProvider} from '@nextui-org/react'
+import Blog from './Components/Blog.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -22,6 +23,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
       <ServicesOffered/>
       <Contact/>
+      {/* <Blog/> */}
     </NextUIProvider>
   
 

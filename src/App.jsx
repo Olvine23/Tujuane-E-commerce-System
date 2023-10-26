@@ -12,16 +12,18 @@ import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 // import Specials from './Components/Specials.jsx';
 // import Testimonial from './Components/Testimonial.jsx';
 // import TestimonialShow from './Components/TestimonialShow.jsx';
+import Blog from './Components/Blog';
 
 class App extends Component {
   render(){
   return (
     <>
       <Router>
+        
         <div className='App'>
-            {/* <Link to="/"></Link>
+             <Link to="/"></Link>
             <Link to="/signup"></Link>
-            <Link to="/"></Link> */}
+            <Link to="/"></Link> 
         <Routes>
             {/* <Route exact path='/' element={<Header />}></Route> */}
             <Route exact path='/' element={<Base />}></Route>
@@ -33,6 +35,7 @@ class App extends Component {
                 <Route path="/Specials" component={<Specials/>} />
                 <Route path="/Testimonial" component={<Testimonial/>} />
                 <Route path="/TestimonialShow" component={<TestimonialShow/>} /> */}
+                <Route path="/Blog" component={<Blog/>} />
         </Routes> 
         </div>
       </Router>
