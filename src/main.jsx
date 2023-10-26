@@ -14,8 +14,10 @@ import ServicesVal from './Components/ServicesVal.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-    <ServicesOffered/>
     <ServicesVal/>
+
+    <ServicesOffered/>
+    <Contact/>
 
   </React.StrictMode>,
 )

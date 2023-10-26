@@ -15,10 +15,15 @@ const Base = () =>{
   return(
     <>
     <div className="showcase">
+      <div className="navbar">
       <Navbar/>
+
+      </div>
       <div className='text-box'>
-        <h1>Services</h1>
-        <p>Home Services</p>
+        {/* <h1>Services</h1>
+        <p>Home Services</p> */}
+        <h1><span className='text-4xl'> Welcome to Tujuaane Events and Adventures Ltd </span><br /> <br />
+          <span className='text-lg'>Where Every Journey is an Experience, Every Experience is a Memory, and Every Memory is a Bond. Explore with Us, Unite with Your Team, and Thrive Together!</span> </h1>
       </div>
     </div>
   

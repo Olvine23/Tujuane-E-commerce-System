@@ -9,9 +9,11 @@ const ServicesVal = () => {
      
       
     <div className="card">
-      <div>
+
+      <div class="words">
     <h4>Our Services</h4>
-     <h1>Join The Adventures With Stories</h1>
+     <h1>Join The Adventures<br></br> With Stories</h1>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repudiandae reiciendis iure similique, quaerat molestiae in enim ducimus, a temporibus eligendi cum quia fuga, laborum dolores odio neque sed nesciunt!</p>
     <div className='icon'>
 
      <div >
@@ -23,11 +25,11 @@ const ServicesVal = () => {
       <p>Valencia Neema</p>
       </div>
       <div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 32 32"><g fill="currentColor"><path d="M0 16c0 8.822 7.178 16 16 16s16-7.178 16-16S24.822 0 16 0S0 7.178 0 16zM16 1c8.271 0 15 6.729 15 15s-6.729 15-15 15S1 24.271 1 16S7.729 1 16 1z"/><path d="M16 29c7.168 0 13-5.832 13-13S23.168 3 16 3S3 8.832 3 16s5.832 13 13 13zM15 4.051v1.526a.5.5 0 0 0 1 0V4c6.279 0 11.438 4.85 11.949 11h-1.527a.5.5 0 0 0 0 1H28c0 6.617-5.383 12-12 12v-1.577a.5.5 0 0 0-1 0v1.526C8.851 27.438 4 22.28 4 16h1.578a.5.5 0 0 0 0-1H4.051C4.534 9.181 9.181 4.534 15 4.051z"/><path d="M9.386 23.041a.5.5 0 0 0 .292-.094l5.614-4.036c.228.056.463.093.708.093c1.654 0 3-1.346 3-3a3 3 0 0 0-.087-.687l4.106-5.712a.501.501 0 0 0-.698-.699l-5.778 4.153a2.96 2.96 0 0 0-.544-.055c-1.654 0-3 1.346-3 3c0 .195.022.386.058.571L8.98 22.249a.501.501 0 0 0 .406.792zM14 16.005c0-1.103.897-2 2-2s2 .897 2 2s-.897 2-2 2s-2-.898-2-2zm6.424-4.502l-1.987 2.765a3.025 3.025 0 0 0-.792-.767l2.779-1.998zm-6.919 6.164c.199.298.454.553.743.763l-2.672 1.921l1.929-2.684z"/></g></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 512 512"><path fill="currentColor" d="m209.686 304.963l119.051 59.424a24 24 0 0 0 32.182-32.21l-59.5-118.948l-119.086-59.645a24 24 0 0 0-32.216 32.189Zm67.88-67.892l44.006 87.975l-88.037-43.946l-44.056-88.149Z"/><path fill="currentColor" d="M256 496c132.548 0 240-107.452 240-240S388.548 16 256 16S16 123.452 16 256s107.452 240 240 240ZM48.353 244C54.269 140.018 136.553 56.476 240 48.606V115h32V48.606C375.447 56.476 457.731 140.018 463.647 244h-63.676v32h63.068C453.474 376.238 372.78 455.727 272 463.394V403h-32v60.394C139.22 455.727 58.526 376.238 48.961 276h63.01v-32Z"/></svg>
       <p>Valencia Neema</p>
       </div>
       <div>
-      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 41 32"><g fill="currentColor"><path d="M9.239 31.927c.009.006.021.003.03.009A.51.51 0 0 0 9.5 32a.5.5 0 0 0 .132-.018L20.5 29.016l10.868 2.966A.5.5 0 0 0 31.5 32a.492.492 0 0 0 .23-.065c.01-.005.021-.003.03-.009l9-5.5a.501.501 0 0 0 .22-.563l-4.984-17.5a.499.499 0 0 0-.726-.3l-4.962 2.784a.501.501 0 0 0 .491.872l4.409-2.475l4.707 16.526l-8.015 4.899l-1.904-15.231a.5.5 0 0 0-.993.124l1.907 15.259L21 28.116v-2.73a.5.5 0 0 0-1 0v2.73l-9.911 2.705l1.907-15.259a.5.5 0 1 0-.993-.124L9.1 30.669l-8.015-4.898L5.792 9.246l4.409 2.475a.501.501 0 0 0 .491-.872L5.729 8.064a.496.496 0 0 0-.725.3L.02 25.864a.498.498 0 0 0 .22.563l8.999 5.5z"/><path d="M20.161 23.368a.5.5 0 0 0 .675.003C21.169 23.068 29 15.882 29 8.5C29 3.733 25.267 0 20.5 0S12 3.733 12 8.5c0 7.254 7.828 14.56 8.161 14.868zM20.5 1C24.775 1 28 4.224 28 8.5c0 6.097-5.993 12.337-7.497 13.807C19.002 20.82 13 14.498 13 8.5C13 4.224 16.225 1 20.5 1z"/><path d="M25 8.5C25 6.019 22.981 4 20.5 4S16 6.019 16 8.5s2.019 4.5 4.5 4.5S25 10.981 25 8.5zM20.5 12c-1.93 0-3.5-1.57-3.5-3.5S18.57 5 20.5 5S24 6.57 24 8.5S22.43 12 20.5 12z"/></g></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18.5L9 17l-6 3V7l6-3l6 3l6-3v7.5M9 4v13m6-10v5.5m6.121 7.621a3 3 0 1 0-4.242 0c.418.419 1.125 1.045 2.121 1.879c1.051-.89 1.759-1.516 2.121-1.879zM19 18v.01"/></svg>
       <p>Valencia Neema</p>
       </div>
       <div>
@@ -35,21 +37,19 @@ const ServicesVal = () => {
       <p>Valencia Neema</p>
       </div>
       <div>
-      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><rect width="39" height="31" x="4.5" y="8.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" rx="2"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M18.34 16.8a3.6 3.6 0 0 0-3.59 3.6h0a3.6 3.6 0 0 0 3.59 3.6h1.22m0 0h1.22a3.59 3.59 0 0 1 3.59 3.6h0a3.59 3.59 0 0 1-3.59 3.6M24 18c-1-.83-2.06-1.21-4.47-1.21h-1.19M15.09 30c1 .83 2.07 1.21 4.47 1.21h1.22M19.56 33V15m16.79 5.4h7.15v7.2h0h-7.15a2.85 2.85 0 0 1-2.85-2.85v-1.5a2.85 2.85 0 0 1 2.85-2.85Z"/><circle cx="36.47" cy="24" r=".8" fill="currentColor"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><g fill="none"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z"/><path fill="currentColor" d="M19 4a2 2 0 0 1 2 2v2.268A2 2 0 0 1 22 10v4a2 2 0 0 1-1 1.732V18a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h14Zm0 2H5v12h14v-2h-4a4 4 0 0 1-.2-7.995L15 8h4V6Zm1 4h-5a2 2 0 1 0 0 4h5v-4Zm-4 1a1 1 0 1 1 0 2a1 1 0 0 1 0-2Z"/></g></svg>
       <p>Valencia Neema</p>
 
       </div>
     </div>
     </div>
     <div className='pic1'>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repudiandae reiciendis iure similique, quaerat molestiae in enim ducimus, a temporibus eligendi cum quia fuga, laborum dolores odio neque sed nesciunt!</p> */}
+   
      <img src="https://images.unsplash.com/photo-1519659528534-7fd733a832a0?auto=format&fit=crop&q=80&w=1926&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
     </div>
 
     </div>
-    <p className="read-the-docs">
-      <Contact />    
-        </p>
+    
   </>
   );
 }

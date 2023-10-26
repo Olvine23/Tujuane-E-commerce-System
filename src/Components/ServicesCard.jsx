@@ -6,7 +6,7 @@ function ServicesCard (props) {
   const desc = props.desc
   
   return (
-    <div className=' w-44 h-48 bg-pink-200 flex flex-col rounded-sm align-middle justify-center gap-1 z-50  shadow-xl ' >
+    <div className='lg:w-60 h-60 mt-24  bg-[#FFF2F6] flex flex-col  align-middle justify-center gap-1 z-50  shadow-xl px-4 sm:px-1 sm:w-40 cursor-pointer' >
       <div className='w-full justify-center flex  relative' >
       <div className="icon w-16 h-16 bg-orange-500/70 justify-center  items-center align-middle text-center flex  rounded-full relative ">
         <div className='flex w-full h-16 justify-center items-center mx-2 '>
@@ -16,7 +16,7 @@ function ServicesCard (props) {
 
       </div>
         <h1 className=' font-bold text-center  text-orange-500/60  '>{title}</h1>
-        <p className='text-center text-purple-400/60'>{desc}</p>
+        <p className='text-center text-gray-400'>{desc}</p>
     </div>
   )
 }
