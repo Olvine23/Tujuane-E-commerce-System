@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 // import React from 'react'
 // import './App.css'
 import Base from './pages/Base';
+import About from './pages/About';
 import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 // import Contact from './Contact.jsx';
 // import  Services from './Components/Services.jsx';
@@ -25,6 +26,7 @@ class App extends Component {
         <Routes>
             {/* <Route exact path='/' element={<Header />}></Route> */}
             <Route exact path='/' element={<Base />}></Route>
+                {/* <Route path="/About" component={<About/>} /> */}
                 {/* <Route path="/Contact" component={<Contact/>} />
                 <Route path="/Services" component={<Services/>} />
                 <Route path="/Services-Card" component={<ServicesCard/>} />
