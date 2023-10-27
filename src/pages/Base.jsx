@@ -2,14 +2,14 @@ import React from 'react';
 // import background from "./images/mountains.jpg"
 import Navbar from '../Components/NavBar';
 import "./Base.css";
-// import Contact from './src/Contact.jsx';
-// import  Services from '../Components/Services.jsx';
-// import ServicesCard from '../Components/ServicesCard.jsx';
-// import ServicesOffered from '../Components/ServicesOffered.jsx';
-// import Special from '../Components/Special.jsx';
-// import Specials from '../Components/Specials.jsx';
-// import Testimonial from '../Components/Testimonial.jsx';
-// import TestimonialShow from '../Components/TestimonialShow.jsx';
+import Contact from '../Components/Contact';
+import  Services from '../Components/Services.jsx';
+import ServicesOffered from '../Components/ServicesOffered.jsx';
+import About from './About';
+import ServicesVal from '../Components/ServicesVal';
+import Specials from '../Components/Specials.jsx';
+import TestimonialShow from '../Components/TestimonialShow.jsx';
+// import {NextUIProvider} from '@nextui-org/react'
 
 const Base = () =>{
   return(
@@ -27,15 +27,13 @@ const Base = () =>{
           <span className='text-lg'>Tujuaane Events and Adventures transforms communities through a holistic approach, involving clean-ups, tree planting, tourism events, charity initiatives, and educational support for students.</span> </h1>
       </div>
     </div>
-  
-    {/* <Contact/>
-    <Services/>
-    <ServicesCard/>
+    <ServicesVal/>
     <ServicesOffered/>
-    <Special/>
+    {/* <Services/>
     <Specials/>
-    <Testimonial/>
     <TestimonialShow/> */}
+    <About/>
+    <Contact/>
     </>
   )
 }
