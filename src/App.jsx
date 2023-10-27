@@ -23,13 +23,14 @@ class App extends Component {
       <Router>
         
         <div className='App'>
-             <Link to="/"></Link>
+             {/* <Link to="/"></Link>
             <Link to="/signup"></Link>
-            <Link to="/"></Link> 
+            <Link to="/"></Link>  */}
         <Routes>
             {/* <Route exact path='/' element={<Header />}></Route> */}
             <Route exact path='/' element={<Base />}></Route>
                 <Route exact path='/about' element={<About />}></Route>
+                <Route exact path='/blog' element={<Blog />}></Route>
                 <Route exact path='/contact' element={<Contact />}></Route>
                 <Route exact path='/services' element={<Services />}></Route>
                 <Route exact path='/services-offered' element={<ServicesOffered />}></Route>

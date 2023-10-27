@@ -19,7 +19,7 @@ const Base = () =>{
       <Navbar/>
 
       </div>
-      <div className='text-box'>
+      <div className='text-box '>
         {/* <h1>Services</h1>
         <p>Home Services</p> */}
         <h1><span className='text-6xl'>  TUJUANE EVENTS & ADVENTURES LTD </span><br /> 
@@ -27,13 +27,18 @@ const Base = () =>{
           <span className='text-lg'>Tujuaane Events and Adventures transforms communities through a holistic approach, involving clean-ups, tree planting, tourism events, charity initiatives, and educational support for students.</span> </h1>
       </div>
     </div>
-    <ServicesVal/>
+    <div id='destination'>
+    <ServicesVal />
+    </div>
+    
+    <div id='services'>
     <ServicesOffered/>
-    {/* <Services/>
-    <Specials/>
-    <TestimonialShow/> */}
+    </div>
     <About/>
+    <div id='contact'>
     <Contact/>
+    </div>
+    
     </>
   )
 }
