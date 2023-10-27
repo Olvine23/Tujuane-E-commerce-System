@@ -13,16 +13,19 @@ import ServicesOffered from './Components/ServicesOffered';
 import Specials from './Components/Specials';
 // import Testimonial from './Components/Testimonial.jsx';
 import TestimonialShow from './Components/TestimonialShow';
+// import TestimonialShow from './Components/TestimonialShow.jsx';
+import Blog from './Components/Blog';
 
 class App extends Component {
   render(){
   return (
     <>
       <Router>
+        
         <div className='App'>
-            {/* <Link to="/"></Link>
+             <Link to="/"></Link>
             <Link to="/signup"></Link>
-            <Link to="/"></Link> */}
+            <Link to="/"></Link> 
         <Routes>
             {/* <Route exact path='/' element={<Header />}></Route> */}
             <Route exact path='/' element={<Base />}></Route>

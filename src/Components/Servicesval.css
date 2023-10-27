@@ -21,21 +21,24 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    height: 100%;
-    /* justify-content: space-between; */
     align-items: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.836), rgba(255, 255, 255, 0.836)), url(/images/bg-2.jpg); 
     background-color: #F5F5F5;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    margin: 30px 0;
+    height: 550px;
   }
-  /* .words{
-    margin-left: 50px;
-  } */
+
   
 
   .read-the-docs {
     color: #888;
   }
   .icon svg{
-    color: #0A8101;
+    color: #62f436;
   }
 
   /* @media only screen and (max-width: 50vw){

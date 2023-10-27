@@ -40,18 +40,18 @@
   text-decoration: none;
  }
  .link:hover{
-  color: #f44336;
+  color: #62f436;
  }
 
   .nav-item:hover {
-    color: #f44336; /* Change color on hover */
+    color: #62f436; /* Change color on hover */
   }
  
   .nav ul li::after{
     content: '';
     width: 0%;
     height: 2px;
-    background: #f44336;
+    background: #62f436;
     display: block;
     margin: auto;
     transition: 0.5s;
